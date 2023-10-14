@@ -1,0 +1,166 @@
+header{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(3, 3, 124);
+    justify-content: space-around;
+    display: flex
+   
+}
+
+.logo{
+    width: 25%;
+    height: 100px;
+    float: left;
+    padding-left: 40px;
+    
+
+}
+.menu {
+    width: 63%;
+    height: 100px;
+    float: left;
+    padding-top: 50px ;
+    padding-left: 60px;
+    font-size:25 px;
+  
+}
+.menu a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+    margin-right: 50px;
+
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}    
+
+
+.login{
+    width: 12%;
+    height: 100px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 15px;
+
+  
+   
+}
+.login a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-size: 30px;
+    
+}
+.logbutton a:hover{
+    color: green;
+}
+.text{
+    float: right;
+    padding-top: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.imgtext{
+    position: absolute;
+    top: 80px;
+    left: 36px;
+    color: darkgreen;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottomleft{
+    position: absolute;
+    bottom: 68px;
+    left: 36px;
+    color: white;
+    font-size: 28px;
+
+
+}
+h3{
+    color: midnightblue;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.exp{
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .sideby{
+    padding:30px 30px 30px 30px;
+
+  }
+  .columnimage {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .sideby::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.bottom{
+    position: absolute;
+    bottom: 30px;
+    left: 36px;
+    color: white;
+    font-size: 28px;
+}
+.more{
+    width: 200;
+    height: 60px;
+    color: white;
+    background-color: darkblue;
+    align-items: center;
+
+}
+.destinations{
+    width: 100%;
+    height: 500px;
+    background-color:azure;
+    padding: 40px 40px 40px 40px;
+    margin-top: 50px;
+}
+.desti{
+    width: 90%;
+    height: 300px;
+    margin-left: 45px;
+    
+}
+.destibutton{
+    width: 200;
+    height: 60px;
+    color: white;
+    background-color: darkblue;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+h4{
+    text-align: center;
+}
+footer{
+    background-color: white;
+    height: 300px;
+}
