@@ -1,0 +1,35 @@
+
+
+.heading{
+    width: 80%;
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-top: 30px;
+
+
+}
+h3{
+ 
+  color:blueviolet;   
+  text-align: justify;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.para{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: whitesmoke;
+}
+.district{
+    margin-left: 40px;
+    margin-right: 30px;
+}
